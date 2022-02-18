@@ -1,0 +1,10 @@
+This program calculates the sum of squares of given input of numbers
+
+let user input numbers
+
+initialise a variable named "total" and let it be = 0
+
+for i in a list of numbers;
+    
+    let "total" = total + i multiplied by i
+    display "sum = value of total"

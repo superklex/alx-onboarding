@@ -1,0 +1,34 @@
+This program would read in three numbers and write them all in sorted order
+
+user inputs three numbers a, b, c
+
+initialize an empty array named "order"
+
+if a is less than b and c
+    Add a to the array as the first element
+    if b is less than c
+        Add b to the array as the second element
+        Add C to the array as the third element
+    else
+        Add C to the array as the second element
+        Add b to the array as the third element
+
+else if b is less than a and c
+    Add b to the array as the first element
+    if a is less than c
+        Add a to the array as the second element
+        Add C to the array as the third element
+    else
+        Add C to the array as the second element
+        Add a to the array as the third element
+
+else if c is less than a and b
+    Add c to the array as the first element
+    if a is less than b
+        Add a to the array as the second element
+        Add b to the array as the third element
+    else
+        Add b to the array as the second element
+        Add a to the array as the third element
+Break
+
